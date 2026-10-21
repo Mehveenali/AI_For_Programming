@@ -1,0 +1,22 @@
+BIO722P AI for Programming Practical
+
+1. Set up the local environment and explored GitHub Copilot CLI.
+2. Used Copilot to explain a grep command for extracting BRCA1 annotations from a GFF file.
+3. Created and tested a DNA translation script.
+4. Created and tested a reverse-complement script using FASTA input.
+5. Tested error handling with an invalid DNA sequence.
+6. Created a GC content script to process multiple FASTA records.
+7. Tested GC calculations, empty sequences, and the minimum-GC threshold option.
+8. Used Copilot to help explain the GC content script for lab notes.
+9. Reviewed the generated code and checked outputs against expected results.
+10. Committed the scripts and test files to Git and pushed them to GitHub.
+
+Scripts:
+- scripts/translate_dna.py
+- scripts/reverse_complement.py
+- scripts/gc_content.py
+
+Test inputs:
+- input/test_seq.fasta
+- input/bad_seq.fasta
+- input/multi_seq.fasta
